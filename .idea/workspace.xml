@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ChangeListManager">
-    <list default="true" id="fb13ebec-7098-48bc-a8b6-a14245ea3c4a" name="Changes" comment="Added Program to create linked List">
+  <component name="Chang
+    <list default="true" id="fb13ebec-7098-48bc-a8b6-a14245ea3c4a" name="Changes" comment="Added Program to create linked List by appending">
+      <change afterPath="$PROJECT_DIR$/src/com/bridglab/linklist/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bridglab/linklist/INode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridglab/linklist/INode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridglab/linklist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridglab/linklist/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bridglab/linklist/MyNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bridglab/test/MyLinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bridglab/test/TestNode.java" beforeDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,35 +49,18 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.bridglab.stack" />
     </key>
-  </component>
-  <component name="RunManager" selected="JUnit.MyLinkedListTest">
-    <configuration name="MyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  
+  <component name="RunManager" selected="Application.MyLinkedList">
+    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridglab.linklist.MyLinkedList" />
       <module name="AssignmentDay_14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bridglab.test.*" />
+          <option name="PATTERN" value="com.bridglab.linklist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.bridglab.test" />
-      <option name="MAIN_CLASS_NAME" value="com.bridglab.test.MyLinkedListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyLinkedListTest.givenThreeNoWhenAddedToLinkedListShouldBeAddedToLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AssignmentDay_14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bridglab.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bridglab.test" />
-      <option name="MAIN_CLASS_NAME" value="com.bridglab.test.MyLinkedListTest" />
-      <option name="METHOD_NAME" value="givenThreeNoWhenAddedToLinkedListShouldBeAddedToLast" />
-      <option name="TEST_OBJECT" value="method" />
+
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,8 +97,9 @@
       </method>
     </configuration>
     <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.MyLinkedListTest" />
+ 
+        <item itemvalue="Application.MyLinkedList" />
+
         <item itemvalue="JUnit.MyLinkedListTest.givenThreeNoWhenAddedToLinkedListShouldBeAddedToTop" />
         <item itemvalue="JUnit.MyLinkedListTest.givenThreeNoWhenAddedToLinkedListShouldBeAddedToLast" />
         <item itemvalue="JUnit.TestNode" />
@@ -161,7 +152,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/bridglab/test/MyLinkedListTest.java</url>
-          <line>9</line>
+          <line>8</line>
           <properties class="com.bridglab.test.MyLinkedListTest" method="givenThreeNoWhenAddedToLinkedListShouldBeAddedToTop">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

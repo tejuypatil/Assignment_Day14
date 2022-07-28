@@ -1,10 +1,15 @@
 package com.bridglab.linklist;
 
-public interface INode <K>{
+public class INode <T>{
 
-     K getKey();
-     void setKey(K key);
-     INode getNext();
-     void setNext(INode next);
+    T data;
+    INode<T> next;
+
+    public INode() {
+    }
+
+    public INode(T data) {
+        this.data = data;
+    }
 
 }
