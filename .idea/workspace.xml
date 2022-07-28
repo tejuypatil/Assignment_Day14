@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-
   <component name="ChangeListManager">
 
-    <list default="true" id="fb13ebec-7098-48bc-a8b6-a14245ea3c4a" name="Changes" comment="Added pop method to delete head element">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridglab/linklist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridglab/linklist/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridglab/linklist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridglab/linklist/MyLinkedList.java" afterDir="false" />
-    </list>
+    <list default="true" id="9a7111be-5b5c-4889-a752-b98638740c0d" name="Changes" comment="Added Program to create a stack" />
 
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +43,24 @@
       <recent name="com.bridglab.linklist" />
       <recent name="com.bridglab.stack" />
     </key>
-
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.bridglab.linklist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyLinkedList">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.stackandqueues.Main" />
+      <module name="AssignmentDay_14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.stackandqueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridglab.linklist.MyLinkedList" />
       <module name="AssignmentDay_14" />
@@ -83,7 +90,6 @@
       </method>
     </configuration>
     <configuration name="MyLinkedListTest.givenThreeNoWhenAddedToLinkedListShouldBeAddedToLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-
       <module name="AssignmentDay_14" />
       <extension name="coverage">
         <pattern>
@@ -91,7 +97,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,30 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AssignmentDay_14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bridglab.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bridglab.test" />
-      <option name="MAIN_CLASS_NAME" value="com.bridglab.test.TestNode" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
-
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MyLinkedList" />
         <item itemvalue="JUnit.MyLinkedListTest" />
-
         <item itemvalue="JUnit.MyLinkedListTest.givenThreeNoWhenAddedToLinkedListShouldBeAddedToTop" />
         <item itemvalue="JUnit.MyLinkedListTest.givenThreeNoWhenAddedToLinkedListShouldBeAddedToLast" />
-        <item itemvalue="JUnit.TestNode" />
       </list>
     </recent_temporary>
   </component>
@@ -183,12 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659004940089</updated>
     </task>
-    <task id="LOCAL-00006" summary="Added pop method to delete head element">
-      <created>1659005359509</created>
+
+    <task id="LOCAL-00006" summary="Added Program to create a stack">
+      <created>1659008679183</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1659005359509</updated>
+      <updated>1659008679183</updated>
+
     </task>
     <option name="localTasksCounter" value="7" />
     <servers />
@@ -206,9 +197,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Program to create linked List" />
-
     <MESSAGE value="Added Program to create linked List by appending" />
 
-    <MESSAGE value="Added insert method to adding element" />
-    <MESSAGE value="Added pop method to delete head element" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added pop method to delete head element" />
+    <MESSAGE value="Added Program to create a stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Program to create a stack" />
+  </component>
+</project>
