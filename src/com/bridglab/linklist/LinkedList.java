@@ -59,6 +59,7 @@ public class LinkedList<T> {
         return  deletedElement;
     }
 
+
     public T peek() {
 
         return null;
@@ -67,6 +68,7 @@ public class LinkedList<T> {
     public int size() {
         return 0;
     }
+
 }
 
 
