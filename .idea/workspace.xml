@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+
   <component name="ChangeListManager">
+
     <list default="true" id="fb13ebec-7098-48bc-a8b6-a14245ea3c4a" name="Changes" comment="Added pop method to delete head element">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridglab/linklist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridglab/linklist/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridglab/linklist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridglab/linklist/MyLinkedList.java" afterDir="false" />
     </list>
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +48,7 @@
       <recent name="com.bridglab.linklist" />
       <recent name="com.bridglab.stack" />
     </key>
+
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.bridglab.linklist" />
     </key>
@@ -79,17 +83,15 @@
       </method>
     </configuration>
     <configuration name="MyLinkedListTest.givenThreeNoWhenAddedToLinkedListShouldBeAddedToLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+
       <module name="AssignmentDay_14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bridglab.test.*" />
+          <option name="PATTERN" value="com.bridglab.linklist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.bridglab.test" />
-      <option name="MAIN_CLASS_NAME" value="com.bridglab.test.MyLinkedListTest" />
-      <option name="METHOD_NAME" value="givenThreeNoWhenAddedToLinkedListShouldBeAddedToLast" />
-      <option name="TEST_OBJECT" value="method" />
+
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,9 +128,11 @@
       </method>
     </configuration>
     <recent_temporary>
+
       <list>
         <item itemvalue="Application.MyLinkedList" />
         <item itemvalue="JUnit.MyLinkedListTest" />
+
         <item itemvalue="JUnit.MyLinkedListTest.givenThreeNoWhenAddedToLinkedListShouldBeAddedToTop" />
         <item itemvalue="JUnit.MyLinkedListTest.givenThreeNoWhenAddedToLinkedListShouldBeAddedToLast" />
         <item itemvalue="JUnit.TestNode" />
@@ -202,9 +206,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Program to create linked List" />
+
     <MESSAGE value="Added Program to create linked List by appending" />
+
     <MESSAGE value="Added insert method to adding element" />
     <MESSAGE value="Added pop method to delete head element" />
     <option name="LAST_COMMIT_MESSAGE" value="Added pop method to delete head element" />
-  </component>
-</project>
