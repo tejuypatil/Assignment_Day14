@@ -8,7 +8,7 @@ public class LinkedList<T> {
         this.head=null;
         this.tail=null;
     }
-    void push(T data){
+     public void push(T data){
         INode<T> node = new INode<>(data);
         if(head == null){
             head = node;
@@ -29,11 +29,11 @@ public class LinkedList<T> {
         }
         tail = node;
     }
-    void print(){
+   public void print(){
         INode<T> temp = head;
         while (temp != null){
             System.out.print(temp.data+ " ");
-=
+
            temp = temp.next;
         }
     }
@@ -47,6 +47,25 @@ public class LinkedList<T> {
         T deletedElement = head.data;
         head = head.next;
         return deletedElement;
+    }
+    public T popLastElement() {
+        T deletedElement = tail.data;
+        INode<T> temp = head;
+        while(temp.next != tail){
+            temp = temp.next;
+        }
+        temp.next = null;
+        temp = tail;
+        return  deletedElement;
+    }
+
+    public T peek() {
+
+        return null;
+    }
+
+    public int size() {
+        return 0;
     }
 }
 
