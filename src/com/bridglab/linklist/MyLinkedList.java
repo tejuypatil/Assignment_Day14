@@ -8,7 +8,7 @@ public class MyLinkedList {
 
         linkedList.insert(30);
 
-        System.out.println(linkedList.pop());
+        System.out.println(linkedList.popLastElement());
         linkedList.print();
 
 }
