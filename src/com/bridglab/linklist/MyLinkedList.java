@@ -1,4 +1,5 @@
 package com.bridglab.linklist;
+
 public class MyLinkedList {
     public static void main(String[] args) {
 
@@ -17,6 +18,8 @@ public class MyLinkedList {
         linkedList1.add(70);
         linkedList1.print();
         System.out.println();
+
+
 
 
     }
