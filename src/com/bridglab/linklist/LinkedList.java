@@ -37,6 +37,11 @@ public class LinkedList<T> {
            temp = temp.next;
         }
     }
+    public void insert(T data) {
+        INode<T> node = new INode<>(data);
+        head.next = node;
+        node.next = tail;
+    }
 
 }
 
