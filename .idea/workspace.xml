@@ -3,7 +3,7 @@
 
   <component name="ChangeListManager">
 
-    <list default="true" id="fb13ebec-7098-48bc-a8b6-a14245ea3c4a" name="Changes" comment="Added Program to create linked List by appending" />
+    <list default="true" id="fb13ebec-7098-48bc-a8b6-a14245ea3c4a" name="Changes" comment="Added insert method to adding element" />
 
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659004320155</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added insert method to adding element">
+      <created>1659004940089</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659004940089</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,7 +197,9 @@
     <MESSAGE value="Added Program to create linked List" />
 
     <MESSAGE value="Added Program to create linked List by appending" />
+
     <option name="LAST_COMMIT_MESSAGE" value="Added Program to create linked List by appending" />
+
 
   </component>
 </project>
