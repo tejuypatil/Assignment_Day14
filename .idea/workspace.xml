@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ChangeListManager">
+  <component name="Chang
     <list default="true" id="fb13ebec-7098-48bc-a8b6-a14245ea3c4a" name="Changes" comment="Added Program to create linked List by appending">
       <change afterPath="$PROJECT_DIR$/src/com/bridglab/linklist/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/src/com/bridglab/linklist/MyNode.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridglab/test/MyLinkedListTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridglab/test/TestNode.java" beforeDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.bridglab.stack" />
     </key>
-  </component>
+  
   <component name="RunManager" selected="Application.MyLinkedList">
     <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridglab.linklist.MyLinkedList" />
@@ -59,6 +60,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,9 +97,11 @@
       </method>
     </configuration>
     <recent_temporary>
-      <list>
+ 
         <item itemvalue="Application.MyLinkedList" />
+
         <item itemvalue="JUnit.MyLinkedListTest.givenThreeNoWhenAddedToLinkedListShouldBeAddedToTop" />
+        <item itemvalue="JUnit.MyLinkedListTest.givenThreeNoWhenAddedToLinkedListShouldBeAddedToLast" />
         <item itemvalue="JUnit.TestNode" />
       </list>
     </recent_temporary>
@@ -111,6 +115,21 @@
       <option name="presentableId" value="Default" />
       <updated>1658856596004</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Program to create linked List">
+      <created>1658939981021</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658939981021</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Program to create linked List">
+      <created>1658940011442</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658940011442</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
