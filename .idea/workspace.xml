@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
 
-    <list default="true" id="9a7111be-5b5c-4889-a752-b98638740c0d" name="Changes" comment="Added pop method to delete head element">
+    <list default="true" id="9a7111be-5b5c-4889-a752-b98638740c0d" name="Changes" comment="Added insert method to get node with key value 30">
 
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/stackandqueues/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/stackandqueues/Main.java" afterDir="false" />
@@ -207,7 +207,23 @@
       <option name="project" value="LOCAL" />
       <updated>1659070722786</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+
+    <task id="LOCAL-00007" summary="Added Program to find the node with value 30">
+      <created>1659881723123</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659881723123</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added insert method to get node with key value 30">
+      <created>1659882185935</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659882185935</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,9 +241,11 @@
     <MESSAGE value="Added Program to create linked List" />
     <MESSAGE value="Added Program to create linked List by appending" />
 
-    <MESSAGE value="Added Program to create a stack" />
-    <MESSAGE value="Added Program to peak and pop from the stack" />
-    <MESSAGE value="Added Program to create Queues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Program to create Queues" />
+    <MESSAGE value="Added insert method to adding element" />
+    <MESSAGE value="Added pop method to delete head element" />
+    <MESSAGE value="Added Program to find the node with value 30" />
+    <MESSAGE value="Added insert method to get node with key value 30" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added insert method to get node with key value 30" />
+
   </component>
 </project>

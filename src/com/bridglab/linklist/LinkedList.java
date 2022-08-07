@@ -69,4 +69,34 @@ public class LinkedList<T> {
     }
 
 
+    public boolean insertAfter(T searchData, T insertData) {
+        INode<T> newNode = new INode<>(insertData);
+        INode<T> searchedNode = search(searchData);
+        if (searchedNode != null) {
+            newNode.next = searchedNode.next;
+            searchedNode.next = newNode;
+            return true;
+        }
+        return false;
+    }
+
+    public void popElement(T value){
+        INode<T> searchedNode = search(value);
+        INode<T> temp = head;
+        while(temp.next != searchedNode){
+            temp = temp.next;
+        }
+        temp.next = searchedNode.next;
+
+    }
+    public int size(){
+        int count=0;
+        INode<T> temp = head;
+        while(temp != null){
+            temp = temp.next;
+            count++;
+        }
+        return count;
+    }
+}
 
