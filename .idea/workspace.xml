@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a7111be-5b5c-4889-a752-b98638740c0d" name="Changes" comment="Added program to delete 40 from linked list">
-      <change beforePath="$PROJECT_DIR$/src/com/bridglab/linklist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridglab/linklist/MyLinkedList.java" afterDir="false" />
-    </list>
+    <list default="true" id="9a7111be-5b5c-4889-a752-b98638740c0d" name="Changes" comment="Created ordered linked list in ascending order" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -212,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659883455000</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Created ordered linked list in ascending order">
+      <created>1659883942211</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659883942211</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +240,7 @@
     <MESSAGE value="Added insert method to get node with key value 30" />
     <MESSAGE value="Corrected program" />
     <MESSAGE value="Added program to delete 40 from linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added program to delete 40 from linked list" />
+    <MESSAGE value="Created ordered linked list in ascending order" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created ordered linked list in ascending order" />
   </component>
 </project>
