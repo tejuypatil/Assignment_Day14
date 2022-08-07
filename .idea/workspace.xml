@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+
     <list default="true" id="9a7111be-5b5c-4889-a752-b98638740c0d" name="Changes" comment="Added Program to create Queues">
+
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/stackandqueues/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/stackandqueues/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/stackandqueues/Queues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/stackandqueues/Queues.java" afterDir="false" />
     </list>
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,12 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659004940089</updated>
     </task>
+
     <task id="LOCAL-00006" summary="Added Program to create a stack">
       <created>1659008679183</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1659008679183</updated>
+
     </task>
     <task id="LOCAL-00007" summary="Added Program to create a stack">
       <created>1659008702161</created>
@@ -219,6 +224,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Program to create linked List" />
     <MESSAGE value="Added Program to create linked List by appending" />
+
     <MESSAGE value="Added Program to create a stack" />
     <MESSAGE value="Added Program to peak and pop from the stack" />
     <MESSAGE value="Added Program to create Queues" />
