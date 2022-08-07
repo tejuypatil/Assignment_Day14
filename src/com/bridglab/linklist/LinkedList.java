@@ -65,5 +65,16 @@ public class LinkedList<T> {
         }
         return null;
     }
+
+    public boolean insertAfter(T searchData, T insertData) {
+        INode<T> newNode = new INode<>(insertData);
+        INode<T> searchedNode = search(searchData);
+        if (searchedNode != null) {
+            newNode.next = searchedNode.next;
+            searchedNode.next = newNode;
+            return true;
+        }
+        return false;
+    }
 }
 

@@ -17,6 +17,7 @@ public class MyLinkedList {
         else {
             System.out.println("Data not found");
         }
-
+        System.out.println(linkedList.insertAfter(30,40));
+        System.out.println();
     }
 }
