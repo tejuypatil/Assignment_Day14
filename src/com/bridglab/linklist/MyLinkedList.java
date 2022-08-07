@@ -1,4 +1,5 @@
 package com.bridglab.linklist;
+
 public class MyLinkedList {
     public static void main(String[] args) {
         LinkedList<Integer> linkedList = new LinkedList<>();
@@ -7,6 +8,7 @@ public class MyLinkedList {
         linkedList.insert(30);
 
         linkedList.print();
+
         System.out.println();
 
         if (linkedList.search(30) !=null){
@@ -25,5 +27,6 @@ public class MyLinkedList {
         System.out.println();
         System.out.println(linkedList.size());
     }
+
 
 }
