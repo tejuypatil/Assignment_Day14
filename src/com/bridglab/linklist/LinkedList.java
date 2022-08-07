@@ -76,5 +76,24 @@ public class LinkedList<T> {
         }
         return false;
     }
+
+    public void popElement(T value){
+        INode<T> searchedNode = search(value);
+        INode<T> temp = head;
+        while(temp.next != searchedNode){
+            temp = temp.next;
+        }
+        temp.next = searchedNode.next;
+
+    }
+    public int size(){
+        int count=0;
+        INode<T> temp = head;
+        while(temp != null){
+            temp = temp.next;
+            count++;
+        }
+        return count;
+    }
 }
 

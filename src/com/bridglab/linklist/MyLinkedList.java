@@ -4,10 +4,8 @@ public class MyLinkedList {
         LinkedList<Integer> linkedList = new LinkedList<>();
         linkedList.push(70);
         linkedList.push(56);
-
         linkedList.insert(30);
 
-        System.out.println(linkedList.popLastElement());
         linkedList.print();
         System.out.println();
 
@@ -19,5 +17,13 @@ public class MyLinkedList {
         }
         System.out.println(linkedList.insertAfter(30,40));
         System.out.println();
+        linkedList.print();
+        System.out.println();
+
+        linkedList.popElement(40);
+        linkedList.print();
+        System.out.println();
+        System.out.println(linkedList.size());
     }
+
 }
