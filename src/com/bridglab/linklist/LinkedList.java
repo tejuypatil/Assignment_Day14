@@ -3,11 +3,12 @@ package com.bridglab.linklist;
 public class LinkedList<T> {
     INode<T> head;
     INode<T> tail;
+
     public LinkedList(){
         this.head=null;
         this.tail=null;
     }
-    void push(T data){
+     public void push(T data){
         INode<T> node = new INode<>(data);
         if(head == null){
             head = node;
@@ -28,11 +29,12 @@ public class LinkedList<T> {
         }
         tail = node;
     }
-    void print(){
+   public void print(){
         INode<T> temp = head;
         while (temp != null){
             System.out.print(temp.data+ " ");
-            temp = temp.next;
+
+           temp = temp.next;
         }
     }
     public void insert(T data) {
@@ -65,6 +67,7 @@ public class LinkedList<T> {
         }
         return null;
     }
+
 
     public boolean insertAfter(T searchData, T insertData) {
         INode<T> newNode = new INode<>(insertData);
