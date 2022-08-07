@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a7111be-5b5c-4889-a752-b98638740c0d" name="Changes" comment="Added insert method to get node with key value 30">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridglab/linklist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridglab/linklist/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridglab/linklist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridglab/linklist/MyLinkedList.java" afterDir="false" />
-    </list>
+    <list default="true" id="9a7111be-5b5c-4889-a752-b98638740c0d" name="Changes" comment="Corrected program" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659882185935</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Corrected program">
+      <created>1659883215042</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659883215042</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +224,7 @@
     <MESSAGE value="Added pop method to delete head element" />
     <MESSAGE value="Added Program to find the node with value 30" />
     <MESSAGE value="Added insert method to get node with key value 30" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added insert method to get node with key value 30" />
+    <MESSAGE value="Corrected program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected program" />
   </component>
 </project>
