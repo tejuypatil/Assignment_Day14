@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
 
-    <list default="true" id="9a7111be-5b5c-4889-a752-b98638740c0d" name="Changes" comment="Added Program to create Queues">
+    <list default="true" id="9a7111be-5b5c-4889-a752-b98638740c0d" name="Changes" comment="Added pop method to delete head element">
 
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/stackandqueues/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/stackandqueues/Main.java" afterDir="false" />

@@ -58,17 +58,15 @@ public class LinkedList<T> {
         temp = tail;
         return  deletedElement;
     }
-
-
-    public T peek() {
-
+    public INode<T> search(T searchData) {
+        INode<T> temp = head;
+        while(temp != null){
+            if(temp.data.equals(searchData))
+                return temp;
+            temp = temp.next;
+        }
         return null;
     }
 
-    public int size() {
-        return 0;
-    }
-
-}
 
 
