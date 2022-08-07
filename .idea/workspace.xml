@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a7111be-5b5c-4889-a752-b98638740c0d" name="Changes" comment="Corrected program" />
+    <list default="true" id="9a7111be-5b5c-4889-a752-b98638740c0d" name="Changes" comment="Added program to delete 40 from linked list">
+      <change beforePath="$PROJECT_DIR$/src/com/bridglab/linklist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridglab/linklist/MyLinkedList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659883215042</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added program to delete 40 from linked list">
+      <created>1659883455000</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659883455000</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +234,7 @@
     <MESSAGE value="Added Program to find the node with value 30" />
     <MESSAGE value="Added insert method to get node with key value 30" />
     <MESSAGE value="Corrected program" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected program" />
+    <MESSAGE value="Added program to delete 40 from linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added program to delete 40 from linked list" />
   </component>
 </project>
